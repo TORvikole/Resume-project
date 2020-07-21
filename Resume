@@ -1,1 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- main conteiner -->
+    <div class="wrapper">
+      <aside class="sidebar">
+        <img
+          src="./img/109355052_2707128339530445_2922402417856911668_o.jpg"
+          alt="My photo"
+          width="370px"
+        />
+
+        <!-- Contacts -->
+        <div class="contacts">
+          <h3 class="sidebar-title">Contacts</h3>
+
+          <div>
+            <span class="contact-txt">telephone -</span>
+            <a class="contact-link" href="tel:+380982856875"
+              >+38 (098) 285 6875</a
+            >
+          </div>
+
+          <div>
+            <span id="e-mail" class="contact-txt">e-mail -</span>
+            <a class="contact-link" href="mailto:torvikole@gmail.com">
+              torvikole@gmail.com</a
+            >
+          </div>
+        </div>
+
+        <!-- Tech Skills -->
+        <div class="tech-skills">
+          <h3 class="sidebar-title">Tech Skills</h3>
+
+          <ul class="skills-orange">
+            <li><span class="skills-txt">HTML5</span></li>
+            <li><span class="skills-txt">CSS3</span></li>
+            <li><span class="skills-txt">JavaScript</span></li>
+            <li><span class="skills-txt">Phyton</span></li>
+            <li><span class="skills-txt">GIT</span></li>
+          </ul>
+        </div>
+
+        <!-- Soft skills -->
+        <div class="soft-skills">
+          <h3 class="sidebar-title">Soft skills</h3>
+
+          <ul class="skills-orange">
+            <li><span class="skills-txt">reliable</span></li>
+            <li><span class="skills-txt">hard worker</span></li>
+            <li><span class="skills-txt">stress-resistant</span></li>
+            <li><span class="skills-txt">non-conflict person</span></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- about myself -->
+      <div class="about_me">
+        <!-- front information -->
+        <div>
+          <h2>Front-end develomper</h2>
+          <h1>Viktor Oliynyk</h1>
+
+          <p>p - это параграф. Текст который мы положили в тег Р</p>
+        </div>
+        <!-- projects container -->
+        <div>
+          <h3>Projects</h3>
+          <ol>
+            <li>
+              <a href="https://www.google.com.ua/">My first project</a>
+              <span>...........</span>
+              <span>[ HTML5, CSS3 ]</span>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/">Project for my mom</a>
+              <span>............</span>
+              <span>[ JavaScript ]</span>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100006999155781"
+                >Freelance project</a
+              >
+              <span>......</span>
+              <span>[ React.js, Node.js ]</span>
+            </li>
+          </ol>
+        </div>
+
+        <!-- work expirience -->
+        <div>
+          <h3>Work expirience</h3>
+
+          <!-- company 1 -->
+          <div>
+            <h4>Front-end develomper freelance</h4>
+            <span>
+              from near by future - up to now
+            </span>
+            <ul>
+              <li>1 mississippi</li>
+              <li>2 mississippi</li>
+              <li>3 mississippi</li>
+            </ul>
+          </div>
+
+          <!-- company 2 -->
+          <div>
+            <h4>Accountant - "Very important LLC"</h4>
+            <span>
+              from start of my minds - to the end of accounting career
+            </span>
+            <ul>
+              <li>sitting on a chair</li>
+              <li>shut my mouth</li>
+              <li>kepp passion on work without hollidays and lunch</li>
+            </ul>
+          </div>
+
+          <!-- company 3 -->
+          <div>
+            <h4>Saller - sale&run company</h4>
+            <span>
+              student time
+            </span>
+            <ul>
+              <li>sale</li>
+              <li>sale</li>
+              <li>sale</li>
+              <li>run from purchaser</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div>
+          <h3>Education</h3>
+          <h4>
+            National university of shipbuilding named after admiral Makarov
+          </h4>
+          <h4>
+            Master degree of accounting
+          </h4>
+          <h5>
+            September 2011 - June 2016
+          </h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
 
